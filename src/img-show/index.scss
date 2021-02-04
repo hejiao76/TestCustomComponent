@@ -1,0 +1,21 @@
+
+.enlarge-table-img {
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.enlarge-table-img:hover {
+  transform: scale(6);
+}
+
+.img-show {
+  &__hide {
+    display: none;
+  }
+
+  &__loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
